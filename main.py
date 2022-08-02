@@ -2,7 +2,7 @@ import discord
 import random
 from verbs import verb_check
 
-token = 'OTAyODY4OTAyNDg3NDIwOTI5.YXksMA.pwtpdub6a7tbrmrZbt91Pi2ineU'
+token = 'YOUR TOKEN HERE'
 
 client = discord.Client(intents=discord.Intents.all())
 
