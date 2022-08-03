@@ -1,5 +1,6 @@
 import nltk
 
+# Some nltk requirements
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 
@@ -19,7 +20,7 @@ def verb_check(text):
 
     # Convert all upper case statements to lower case
     for i in range(len(data)):
-        if data[i][1] not in ["NN", "NNP"]:
+        if data[i][1] not in ["NN"]:
             data[i][0] = data[i][0].lower()
 
     # Check for abbreviations/slang not recognized by nltk
