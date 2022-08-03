@@ -20,7 +20,7 @@ def verb_check(text):
 
     # Convert all upper case statements to lower case
     for i in range(len(data)):
-        if data[i][1] not in ["NN"]:
+        if data[i][1] not in ["NN", "NNP"]:
             data[i][0] = data[i][0].lower()
 
     # Check for abbreviations/slang not recognized by nltk
@@ -39,13 +39,13 @@ def verb_check(text):
             data[i][1] = "VBP"
         if data[i][0] == "r":
             data[i][1] = "VBP"
-        if data[i][0] in ["me", "i"]:
+        if data[i][0].lower() in ["me", "i"]:
             data[i][0] = "you"
-        if data[i][0] == "my":
+        if data[i][0].lower() == "my":
             data[i][0] = "your"
-        if data[i][0] == "mine":
+        if data[i][0].lower() == "mine":
             data[i][0] = "yours"
-        if data[i][0] == "myself":
+        if data[i][0].lower() == "myself":
             data[i][0] = "yourself"
 
     # Change grammar for verbs to match "my mom"
