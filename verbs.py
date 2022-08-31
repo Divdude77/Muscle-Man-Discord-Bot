@@ -51,7 +51,6 @@ def verb_check(text):
     # Change grammar for verbs to match "my mom"
     for j in range(len(data)):
         try:
-            print("in")
             if data[j][1] in ["PRP", "NNP", "NN", "WP"] and data[j+1][1] in ["VBP", "VBZ", "VBD", "VBN", "MD", "VBG"]:
                 if data[j+1][0] in ["am", "are", "'m", "'re", "r", "'s"]:
                     data[j+1][0] = "is"
