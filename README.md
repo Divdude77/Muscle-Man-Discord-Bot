@@ -1,6 +1,7 @@
 # Muscle Man Discord Bot
 <div align="center">
  <img width="500" alt="Screen Shot 2022-08-03 at 12 49 36 PM" src="https://user-images.githubusercontent.com/75612147/182566350-a3fabcf4-1d69-44bf-b42f-88aaabb993ab.png"><br>
+ <h4>🥳🎉 VERIFIED! Thank you to everyone who added this bot! 🎉🥳</h4>
 - A discord bot that cracks 'my mom' jokes just like Muscle Man from Regular Show!<br>
 - The script uses nltk to deconstruct a user messages to find verbs and make suitable replies.<br>
 - On every 'my mom' joke worthy message by a user, there is a 50% chance that the bot will reply.<br>
