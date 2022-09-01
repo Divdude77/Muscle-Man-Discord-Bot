@@ -5,7 +5,7 @@
 
  <h4>🥳🎉 VERIFIED! Thank you to everyone who added this bot! 🎉🥳</h4>
 - A discord bot that cracks 'my mom' jokes just like Muscle Man from Regular Show!<br>
-- The script uses nltk to deconstruct a user messages to find verbs and make suitable replies.<br>
+- The script uses nltk to deconstruct users' messages to find verbs and make suitable replies.<br>
 - On every 'my mom' joke worthy message by a user, there is a 50% chance that the bot will reply.<br>
 <br>
  <a>
