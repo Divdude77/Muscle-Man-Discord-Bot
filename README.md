@@ -24,3 +24,7 @@ If you'd like to use the source code to build a similar bot of your own:
 3. Copy the bot token generated (you can only do this once) and paste it in main.py
 4. In your terminal, execute: ```pip install -r requirements.txt```
 5. Now, in your terminal again, execute: ```python3 main.py```
+
+## Note:
+<a href="https://divdude77.github.io/Muscle-Man-Discord-Bot">Terms of Service</a>
+<a href="https://divdude77.github.io/Muscle-Man-Discord-Bot/pp.html">Privacy Policy</a>
