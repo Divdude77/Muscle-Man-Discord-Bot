@@ -26,5 +26,5 @@ If you'd like to use the source code to build a similar bot of your own:
 5. Now, in your terminal again, execute: ```python3 main.py```
 
 ## Note:
-<a href="https://divdude77.github.io/Muscle-Man-Discord-Bot">Terms of Service</a>
+<a href="https://divdude77.github.io/Muscle-Man-Discord-Bot">Terms of Service</a><br>
 <a href="https://divdude77.github.io/Muscle-Man-Discord-Bot/pp.html">Privacy Policy</a>
