@@ -12,7 +12,7 @@
  <a href="https://discord.com/api/oauth2/authorize?client_id=902868902487420929&permissions=223232&scope=bot">
    <img src="https://img.shields.io/badge/Invite--white?style=social&logo=Discord"/>
  </a>
- <img src="https://img.shields.io/badge/Servers-350+-brightgreen?style=flat-square&logo=Discord&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Servers-400+-brightgreen?style=flat-square&logo=Discord&logoColor=white"/>
  </div>
  
 
