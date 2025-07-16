@@ -2,7 +2,7 @@ import discord
 import random
 from verbs import verb_check
 
-token = 'YOUR TOKEN HERE'
+token = os.environ['DISCORD_BOT_TOKEN']      # Environment variable
 
 intents = discord.Intents.default()
 intents.message_contents = True
