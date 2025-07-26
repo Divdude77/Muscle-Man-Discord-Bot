@@ -5,7 +5,7 @@ from verbs import verb_check
 token = os.environ['DISCORD_BOT_TOKEN']      # Environment variable
 
 intents = discord.Intents.default()
-intents.message_contents = True
+intents.message_content = True
 client = discord.Client(intents=intents)
 
 @client.event
